@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p style="font-family:arial;color:darkblue;font-size:20px;">Part of cipher:</p>
+<p>ÃÅ lö¿'!ð(¼[¬ULóazU«P09³ûhtd¨øÆlÅU4à¥¹ìFkeîþÇTÏØ½å¥ÜÀ¸Û0½h¤¦OÚ¡	#M>y{Ñ¬q6gÿ0ò½Ã§,×ó}xkÐ¿³¯6»9ò8ÌQ(Ë+ëÇÁ9%v,t-o)cAÁ©)uñ³aê¶[ÕÞ)^$9ogî{Üâv|Mª1Ç²Üp¹+ôÛKñt¸
+Ü#Älým¢R5ÀÝ~</p>
+
+<p style="font-family:arial;color:darkblue;font-size:20px;">Notice: The above is part of the cipher, and it should be added with "<" and "A" at the end, and then you should add the remaining cipher below to form a complete cipher.</p>
+
+<p style="font-family:arial;color:darkblue;font-size:20px;">The remaining cipher: </p>
+<p>,fòÎïtâÓ½,Á¼5^I²ºG.·ÙÉW</p>
+
+<p style="font-family:arial;color:darkblue;font-size:20px;">Tip: The format of the private key is base64.</p>
+
+<p style="font-family:arial;color:darkblue;font-size:20px;">public key:</p>
+<p>-----BEGIN PUBLIC KEY-----</p>
+<p>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs0FltMErTThlc0Tgm87N</p>
+<p>jYg3Dc/e4t1uEUSUDaLoGI006z5z0jUY4x64LV9ZY1fkQtuG3mcEtwt5tAuyZzQy</p>
+<p>k/qkm9Zm3CmXZ0czTezZealC3NTxd5tl6x2Z4AW0G5cvMaJZETBNGbCy+gEljk7U</p>
+<p>fA8ETsXvQooE63K0kjzosTeR50z0k0XUkzazH84+4aXRWgxF2DCNvRjiP9ygwNxX</p>
+<p>rwc6+p0iUr1Z1A72W1mF8cm5LQE9PQSRmT5rJZCiW7k0WVbR40CG7HFsCRrrimvk</p>
+<p>kBLQ27fXx7pQ0Ku7Jk7gjjckI7Mh05sy/ZCuiaCEf7mHZnFjwzapjFFaGQb4uNW4</p>
+<p>4wIDAQAB</p>
+<p>-----END PUBLIC KEY-----</p>
+
+
+
+<form method="post">
+    {{ form.csrf_token() }}
+    {{ form.flag.label }}{{ form.flag }}<br>
+    {{ form.submit }}
+</form>
+</body>
+</html>
